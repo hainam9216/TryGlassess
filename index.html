@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css ">
+
+    <link rel="stylesheet" href="./asset/style/style.css">
+</head>
+<body>
+    <header id="header" class="text-center p-3">
+        <h3>TRY GLASSES APP ONLINE</h3>
+    </header>
+    <section id="model-display" class="row justify-content-center">
+        <div class="px-5">
+            <img src="./asset/glassesImage/model.jpg" alt="">
+        </div>
+        <div id="model-try-on" class="px-5">
+            <img src="./asset/glassesImage/model.jpg" alt="">
+            <div id="tryGlass">
+            </div>
+    </section>
+    <section id="glassDisplay" class="container">
+        <div>
+            <a onclick="putGlassOn(1)"><img style="height:120px;" src="./asset/glassesImage/g1.jpg" alt=""></a>
+            <a onclick="putGlassOn(2)"><img style="height:120px;" src="./asset/glassesImage/g2.jpg" alt=""></a>
+            <a onclick="putGlassOn(3)"><img style="height:50px;" src="./asset/glassesImage/g3.jpg" alt=""></a>
+            <a onclick="putGlassOn(4)"><img style="height:50px;" src="./asset/glassesImage/g4.jpg" alt=""></a>
+            <a onclick="putGlassOn(5)"><img style="height:80px;" src="./asset/glassesImage/g5.jpg" alt=""></a>
+            <a onclick="putGlassOn(6)"><img style="height:80px;" src="./asset/glassesImage/g6.jpg" alt=""></a>
+            <a onclick="putGlassOn(7)"><img style="height:120px;"src="./asset/glassesImage/g7.jpg" alt=""></a>
+            <a onclick="putGlassOn(8)"><img style="height:100px;"src="./asset/glassesImage/g8.jpg" alt=""></a>
+            <a onclick="putGlassOn(9)"><img style="height:100px;"src="./asset/glassesImage/g9.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="./model/main.js"></script>
+</body>
+</html>

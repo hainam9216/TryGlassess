@@ -1,0 +1,45 @@
+body{
+    background-image: url(./../glassesImage/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#header{
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+}
+#model-display{
+    padding-top: 2rem;
+}
+#model-display img{
+    width: 250px;
+    margin: 0rem 10rem;
+}
+#glassDisplay{
+    background-color: white;
+    padding: 0rem 5rem; 
+}
+#glassDisplay a{
+    height: auto;
+    margin: auto !important;
+}
+#glassDisplay img{
+    height: 200px;
+    margin: 2rem !important;
+}
+#glassDisplay a{
+    cursor: pointer;
+}
+
+#model-try-on{
+    position: relative;
+}
+#model-try-on div{
+    position: absolute;
+    bottom: 80%;
+    right: 93%;
+}
+#model-try-on div img{
+    position: absolute;
+    transform: scale(0.5);
+}
